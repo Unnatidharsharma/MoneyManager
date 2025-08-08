@@ -1,88 +1,87 @@
-# Money Manager
+# 💰 Money Manager
 
-A full-stack Money Manager application built with Spring Boot (Java) for the backend and React (Vite) for the frontend.
+A **full-stack personal finance tracker** built with **Spring Boot (Java)** for the backend and **React (Vite)** for the frontend.  
+This project allows users to **securely register, track income & expenses, and visualize spending trends** — all in a responsive and easy-to-use interface.
 
----
-
-## Features
-
-- User registration with email activation
-- JWT-based authentication
-- Add, view, and manage transactions
-- Responsive frontend with React
-- MySQL database integration
+**🌐 Live Demo:** [Click Here](https://your-live-link.com)  
+**▶ YouTube Walkthrough:** [Watch Video](https://youtube.com/your-video-link)  
 
 ---
 
-## Prerequisites
+## 📸 Project Preview
 
-- Java 17+ (JDK)
-- Node.js (v16+ recommended)
-- MySQL Server
-- Maven
+| Dashboard | Add Transaction | Reports & Charts |
+|-----------|----------------|------------------|
+| ![Dashboard](https://your-image-link.com/dashboard.png) | ![Transaction](https://your-image-link.com/transaction.png) | ![Reports](https://your-image-link.com/reports.png) |
 
 ---
 
-## Getting Started
+## 🚀 Features
+
+- **User Registration with Email Activation** – Accounts are activated only after clicking the verification link.  
+- **JWT-Based Authentication** – Secure login & API access.  
+- **Transaction Management** – Add, edit, delete, and view transactions.  
+- **Categorization** – Organize income & expenses by category.  
+- **Visual Reports** – View spending patterns with interactive charts.  
+- **Responsive UI** – Fully mobile-friendly using React & Tailwind CSS.  
+- **MySQL Database Integration** – Persistent & reliable storage.  
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**  
+- React (Vite)  
+- Axios (API calls)  
+- Tailwind CSS (styling)  
+
+**Backend:**  
+- Spring Boot (Java 17+)  
+- Spring Security (JWT)  
+- Spring Data JPA (Hibernate ORM)  
+
+**Database:**  
+- MySQL  
+
+**Tools & Build:**  
+- Maven  
+- Node.js  
+- Git & GitHub  
+
+---
+
+## 📦 Prerequisites
+
+- Java 17+ (JDK)  
+- Node.js (v16+ recommended)  
+- MySQL Server  
+- Maven  
+
+---
+
+## ⚡ Getting Started
 
 ### 1. Clone the Repository
-
 ```sh
 git clone https://github.com/Unnatidharsharma/MoneyManager.git
 cd "MoneyManager/money manager youtube"
 ```
+### Start Backend
 
----
-
-### 2. Backend Setup
-
-#### Configure Database
-
-- Create a MySQL database named `moneymanager`.
-- Update `src/main/resources/application.properties` with your MySQL username and password.
-
-#### Start Backend
-
-```sh
-cd moneymanager
+``` cd moneymanager
 ./mvnw spring-boot:run
 ```
-or on Windows:
-```sh
-mvnw.cmd spring-boot:run
+
+### Frontend Setup
+
 ```
-
----
-
-### 3. Frontend Setup
-
-```sh
 cd moneymanagerwebapp
 npm install
 npm run dev
+
 ```
 
-The frontend will run at [http://localhost:5173](http://localhost:5173).
-
----
-
-### 4. Usage
-
-- Register a new account.
-- Check your email for an activation link and activate your account.
-- Log in and start managing your finances!
-
----
-
-## Configuration
-
-- **Backend:**  
-  `money manager youtube/moneymanager/src/main/resources/application.properties`
-- **Frontend:**  
-  API endpoints are configured to use `http://localhost:8080/api/v1.0`
-
----
-
-## License
-
-This project is for educational purposes.
+## Frontend Run at 
+```
+http://localhost:5173
+```
